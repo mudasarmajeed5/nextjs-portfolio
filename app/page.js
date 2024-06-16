@@ -11,10 +11,10 @@ export default function Home() {
           <button>Get Quote</button>
         </div>
         <div className="socials">
-          <button className="hover:bg-black p-1 rounded-md"><Link className="text-2xl hover:text-white" href={''}><IoLogoInstagram/></Link></button>
-          <button className="hover:bg-black p-1 rounded-md"><Link className="text-2xl hover:text-white" href={''}><IoLogoGithub/></Link></button>
-          <button className="hover:bg-black p-1 rounded-md"><Link className="text-2xl hover:text-white" href={''}><IoLogoLinkedin/></Link></button>
-          <button className="hover:bg-black p-1 rounded-md"><Link className="text-2xl hover:text-white" href={''}><IoLogoTwitter/></Link></button>
+          <button className="bg-black p-1 hover:right-0 rounded-md flex gap-2"><span className="text-2xl hover:text-white"><IoLogoInstagram/></span><Link href={'#'} className="show-text">Instagram</Link></button>
+          <button className="bg-black p-1 hover:right-0 rounded-md flex gap-2"><span className="text-2xl hover:text-white"><IoLogoGithub/></span><Link href={'#'} className="show-text">Github</Link></button>
+          <button className="bg-black p-1 hover:right-0 rounded-md flex gap-2"><span className="text-2xl hover:text-white"><IoLogoLinkedin/></span><Link href={'#'} className="show-text">LinkedIn</Link></button>
+          <button className="bg-black p-1 hover:right-0 rounded-md flex gap-2"><span className="text-2xl hover:text-white"><IoLogoTwitter/></span><Link href={'#'} className="show-text">Twitter/X</Link></button>
         </div>
 
       </div>

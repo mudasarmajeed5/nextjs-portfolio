@@ -10,7 +10,7 @@ const Navbar = () => {
   const [DropDown, setDropDown] = useState(false)
   const router = useRouter()
   return (
-    <div className='text-center bg-[#253157] sticky top-0 pt-4 pb-2 px-4 flex md:justify-around justify-between items-center text-[--text-color]'>
+    <div className='text-center backdrop-blur-sm bg-[#253157] sticky top-0 pt-4 pb-2 px-4 flex md:justify-around justify-between items-center text-[--text-color]'>
     <div>
     <ul className='flex items-center gap-3'>
       <li className="md:text-4xl text-3xl text-white"><IoLogoMastodon /></li>
